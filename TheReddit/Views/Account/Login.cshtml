@@ -68,13 +68,13 @@
     <div class="justify-content-center" style="text-align: center; margin-top:20px ">
         @using (Html.BeginForm("Login", "Account", FormMethod.Post))
         {
-            <div>
+            <div class="form-group">
                 <label>Username</label>
-                <input name="Username" />
+                <input class="form-control" name="Username" />
             </div><br />
-            <div>
+            <div class="form-group">
                 <label>Password</label>
-                <input type="password" name="Password" />
+                <input class="form-control" type="password" name="Password" />
             </div><br />
             <input class="btn btn-primary my-2" type="submit" value="Login" />
             <a class="btn btn-secondary my-2" href="/">Cancel</a>

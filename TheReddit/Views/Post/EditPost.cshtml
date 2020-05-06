@@ -71,20 +71,20 @@
                 @Html.HiddenFor(p => p.Post.Id)
                 @Html.HiddenFor(p => p.Post.Likes)
                 @Html.HiddenFor(p => p.Post.Created)
-                <div>
+                <div class="form-group">
                     <div>
                         @Html.Label("Title:")
                     </div><br />
-                    <div>
+                    <div class="form-control">
                         @Html.TextBoxFor(p => p.Post.Title)
                     </div>
 
                 </div><br />
-                <div>
+                <div class="form-group">
                     <div>
                         @Html.Label("Url:")
                     </div><br />
-                    <div>
+                    <div class="form-control">
                         @Html.TextBoxFor(p => p.Post.Url)
                     </div>
                 </div><br />
