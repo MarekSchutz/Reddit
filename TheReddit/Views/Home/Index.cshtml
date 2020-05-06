@@ -93,11 +93,12 @@
                             <div class="card mb-4 shadow-sm">
                                 <div class="card-body">
                                     <a href="@post.Url" target="_blank" class="card-text">@post.Title</a>
+                                    <small class="text-muted">by @post.User.UserName</small>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
                                             <a href="Post/Vote?vote=1&id=@post.Id"><i class="fas fa-arrow-circle-up fa-lg" style="color:green"></i></a>
                                         </div>
-                                        <div class="btn-group" >
+                                        <div class="btn-group">
                                             <a href="Post/Vote?vote=-1&id=@post.Id"><i class="fas fa-arrow-circle-down fa-lg" style="color:red"></i></a>
                                         </div>
                                         <small class="text-muted">Likes: @post.Likes</small>

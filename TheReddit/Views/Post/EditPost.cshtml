@@ -73,20 +73,15 @@
                 @Html.HiddenFor(p => p.Post.Created)
                 <div class="form-group">
                     <div>
-                        @Html.Label("Title:")
+                        Title:
                     </div><br />
-                    <div class="form-control">
-                        @Html.TextBoxFor(p => p.Post.Title)
-                    </div>
-
+                    <input class="form-control col-md-4" style="margin:0 auto" type="text" placeholder="@Model.Post.Title" />
                 </div><br />
                 <div class="form-group">
                     <div>
-                        @Html.Label("Url:")
+                        Url:
                     </div><br />
-                    <div class="form-control">
-                        @Html.TextBoxFor(p => p.Post.Url)
-                    </div>
+                    <input class="form-control col-md-4" style="margin:0 auto" type="text" placeholder="@Model.Post.Url" />
                 </div><br />
                 <input class="btn btn-primary my-2" type="submit" value="Edit" />
                 <a class="btn btn-secondary my-2" href="~/Home/UserPosts">Cancel</a>
