@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheReddit", "TheReddit.csproj", "{DC36D3EB-ED7E-43E4-B5AA-D103C1291297}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC36D3EB-ED7E-43E4-B5AA-D103C1291297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC36D3EB-ED7E-43E4-B5AA-D103C1291297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC36D3EB-ED7E-43E4-B5AA-D103C1291297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC36D3EB-ED7E-43E4-B5AA-D103C1291297}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCBA92C1-065F-427C-8B91-ADBC8329D63A}
+	EndGlobalSection
+EndGlobal
